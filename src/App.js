@@ -28,13 +28,13 @@ render(){
       <div className="App">
           
           <Navbar/>
-          <Dashboard game= {this.state.game} productivity={this.state.productivity} story={this.state.story} social= {this.state.social} studySkill= {this.state.studySkill}/>
+          <Dashboard game= {this.state.game} productivity={this.state.productivity} story={this.state.story} social= {this.state.social} study= {this.state.study}/>
           <div className="card-container">
-            <Card type = "game" title= "flappy bird" makeChoice= {this.makeChoice}/>
-            <Card type = "story" title= "zelda" makeChoice= {this.makeChoice}/>
-            <Card type = "productivity" title= "reminders" makeChoice= {this.makeChoice}/>
-            <Card type = "study" title= "note taking" makeChoice= {this.makeChoice}/>
-            <Card type = "social" title= "facebook" makeChoice= {this.makeChoice}/>
+            <Card type = "game" title= "zelda" title2= "tetris" makeChoice= {this.makeChoice}/>
+            <Card type = "story" title= "humpty dumpty" title2= "Cat in the hat" makeChoice= {this.makeChoice}/>
+            <Card type = "productivity" title= "reminders" title2= "calander" makeChoice= {this.makeChoice}/>
+            <Card type = "study" title= "note taking" title2= "flash cards" makeChoice= {this.makeChoice}/>
+            <Card type = "social" title= "facebook" title2= "snap chat" makeChoice= {this.makeChoice}/>
            </div>
         </div>
         
